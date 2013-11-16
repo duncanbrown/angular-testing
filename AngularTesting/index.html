@@ -3,9 +3,11 @@
 <head>
     <title>Angular Testing</title>
     <script src="Scripts/angular.js"></script>
+    <script src="Scripts/app/controllers/hw-controller.js"></script>
 </head>
-<body>
+<body ng-controller="HelloWorldController">
     <input type="text" ng-model="name" />
     <p>Hello {{name}}</p>
+    <p>Chars {{nameChars}}</p>
 </body>
 </html>
